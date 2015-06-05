@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0F193A1AB91F9000EDE59E /* libLoki-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0F192E1AB91F9000EDE59E /* libLoki-iOS.a */; };
+		8D0F19711AB9201D00EDE59E /* StrongPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F196B1AB9201D00EDE59E /* StrongPtr.cpp */; };
+		8D0F19721AB9201D00EDE59E /* OrderedStatic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F196C1AB9201D00EDE59E /* OrderedStatic.cpp */; };
+		8D0F19731AB9201D00EDE59E /* SmartPtr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F196D1AB9201D00EDE59E /* SmartPtr.cpp */; };
+		8D0F19741AB9201D00EDE59E /* SafeFormat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F196E1AB9201D00EDE59E /* SafeFormat.cpp */; };
+		8D0F19751AB9201D00EDE59E /* Singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F196F1AB9201D00EDE59E /* Singleton.cpp */; };
+		8D0F19761AB9201D00EDE59E /* SmallObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D0F19701AB9201D00EDE59E /* SmallObj.cpp */; };
+		8D0F199A1AB9204500EDE59E /* AbstractFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19791AB9204500EDE59E /* AbstractFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F199B1AB9204500EDE59E /* AssocVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F197A1AB9204500EDE59E /* AssocVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F199C1AB9204500EDE59E /* ConstPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F197B1AB9204500EDE59E /* ConstPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F199D1AB9204500EDE59E /* DataGenerators.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F197C1AB9204500EDE59E /* DataGenerators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F199E1AB9204500EDE59E /* EmptyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F197D1AB9204500EDE59E /* EmptyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F199F1AB9204500EDE59E /* Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F197E1AB9204500EDE59E /* Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A01AB9204500EDE59E /* Function.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F197F1AB9204500EDE59E /* Function.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A11AB9204500EDE59E /* Functor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19801AB9204500EDE59E /* Functor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A21AB9204500EDE59E /* HierarchyGenerators.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19811AB9204500EDE59E /* HierarchyGenerators.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A31AB9204500EDE59E /* LockingPtr.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19821AB9204500EDE59E /* LockingPtr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A41AB9204500EDE59E /* LokiExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19831AB9204500EDE59E /* LokiExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A51AB9204500EDE59E /* LokiTypeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19841AB9204500EDE59E /* LokiTypeInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A61AB9204500EDE59E /* MultiMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19851AB9204500EDE59E /* MultiMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A71AB9204500EDE59E /* NullType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19861AB9204500EDE59E /* NullType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A81AB9204500EDE59E /* OrderedStatic.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19871AB9204500EDE59E /* OrderedStatic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19A91AB9204500EDE59E /* Pimpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19881AB9204500EDE59E /* Pimpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19AA1AB9204500EDE59E /* RefToValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19891AB9204500EDE59E /* RefToValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19AB1AB9204500EDE59E /* Register.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F198A1AB9204500EDE59E /* Register.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19AC1AB9204500EDE59E /* SafeFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F198B1AB9204500EDE59E /* SafeFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19AD1AB9204500EDE59E /* ScopeGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F198C1AB9204500EDE59E /* ScopeGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19AE1AB9204500EDE59E /* Sequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F198D1AB9204500EDE59E /* Sequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19AF1AB9204500EDE59E /* Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F198E1AB9204500EDE59E /* Singleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B01AB9204500EDE59E /* SmallObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F198F1AB9204500EDE59E /* SmallObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B11AB9204500EDE59E /* SmartPtr.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19901AB9204500EDE59E /* SmartPtr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B21AB9204500EDE59E /* static_check.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19911AB9204500EDE59E /* static_check.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B31AB9204500EDE59E /* StrongPtr.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19921AB9204500EDE59E /* StrongPtr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B41AB9204500EDE59E /* Threads.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19931AB9204500EDE59E /* Threads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B51AB9204500EDE59E /* Tuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19941AB9204500EDE59E /* Tuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B61AB9204500EDE59E /* Typelist.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19951AB9204500EDE59E /* Typelist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B71AB9204500EDE59E /* TypelistMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19961AB9204500EDE59E /* TypelistMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B81AB9204500EDE59E /* TypeManip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19971AB9204500EDE59E /* TypeManip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19B91AB9204500EDE59E /* TypeTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19981AB9204500EDE59E /* TypeTraits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0F19BA1AB9204500EDE59E /* Visitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F19991AB9204500EDE59E /* Visitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D0F193B1AB91F9000EDE59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0F19261AB91F9000EDE59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D0F192D1AB91F9000EDE59E;
+			remoteInfo = "Loki-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D0F192C1AB91F9000EDE59E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D0F192E1AB91F9000EDE59E /* libLoki-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLoki-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0F19391AB91F9000EDE59E /* Loki-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Loki-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0F193F1AB91F9000EDE59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0F196B1AB9201D00EDE59E /* StrongPtr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrongPtr.cpp; sourceTree = "<group>"; };
+		8D0F196C1AB9201D00EDE59E /* OrderedStatic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OrderedStatic.cpp; sourceTree = "<group>"; };
+		8D0F196D1AB9201D00EDE59E /* SmartPtr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmartPtr.cpp; sourceTree = "<group>"; };
+		8D0F196E1AB9201D00EDE59E /* SafeFormat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SafeFormat.cpp; sourceTree = "<group>"; };
+		8D0F196F1AB9201D00EDE59E /* Singleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton.cpp; sourceTree = "<group>"; };
+		8D0F19701AB9201D00EDE59E /* SmallObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmallObj.cpp; sourceTree = "<group>"; };
+		8D0F19791AB9204500EDE59E /* AbstractFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		8D0F197A1AB9204500EDE59E /* AssocVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssocVector.h; sourceTree = "<group>"; };
+		8D0F197B1AB9204500EDE59E /* ConstPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstPolicy.h; sourceTree = "<group>"; };
+		8D0F197C1AB9204500EDE59E /* DataGenerators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataGenerators.h; sourceTree = "<group>"; };
+		8D0F197D1AB9204500EDE59E /* EmptyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyType.h; sourceTree = "<group>"; };
+		8D0F197E1AB9204500EDE59E /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		8D0F197F1AB9204500EDE59E /* Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
+		8D0F19801AB9204500EDE59E /* Functor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functor.h; sourceTree = "<group>"; };
+		8D0F19811AB9204500EDE59E /* HierarchyGenerators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HierarchyGenerators.h; sourceTree = "<group>"; };
+		8D0F19821AB9204500EDE59E /* LockingPtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockingPtr.h; sourceTree = "<group>"; };
+		8D0F19831AB9204500EDE59E /* LokiExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LokiExport.h; sourceTree = "<group>"; };
+		8D0F19841AB9204500EDE59E /* LokiTypeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LokiTypeInfo.h; sourceTree = "<group>"; };
+		8D0F19851AB9204500EDE59E /* MultiMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiMethods.h; sourceTree = "<group>"; };
+		8D0F19861AB9204500EDE59E /* NullType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NullType.h; sourceTree = "<group>"; };
+		8D0F19871AB9204500EDE59E /* OrderedStatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedStatic.h; sourceTree = "<group>"; };
+		8D0F19881AB9204500EDE59E /* Pimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pimpl.h; sourceTree = "<group>"; };
+		8D0F19891AB9204500EDE59E /* RefToValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefToValue.h; sourceTree = "<group>"; };
+		8D0F198A1AB9204500EDE59E /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		8D0F198B1AB9204500EDE59E /* SafeFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeFormat.h; sourceTree = "<group>"; };
+		8D0F198C1AB9204500EDE59E /* ScopeGuard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScopeGuard.h; sourceTree = "<group>"; };
+		8D0F198D1AB9204500EDE59E /* Sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sequence.h; sourceTree = "<group>"; };
+		8D0F198E1AB9204500EDE59E /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		8D0F198F1AB9204500EDE59E /* SmallObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallObj.h; sourceTree = "<group>"; };
+		8D0F19901AB9204500EDE59E /* SmartPtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartPtr.h; sourceTree = "<group>"; };
+		8D0F19911AB9204500EDE59E /* static_check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = static_check.h; sourceTree = "<group>"; };
+		8D0F19921AB9204500EDE59E /* StrongPtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrongPtr.h; sourceTree = "<group>"; };
+		8D0F19931AB9204500EDE59E /* Threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Threads.h; sourceTree = "<group>"; };
+		8D0F19941AB9204500EDE59E /* Tuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tuple.h; sourceTree = "<group>"; };
+		8D0F19951AB9204500EDE59E /* Typelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Typelist.h; sourceTree = "<group>"; };
+		8D0F19961AB9204500EDE59E /* TypelistMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypelistMacros.h; sourceTree = "<group>"; };
+		8D0F19971AB9204500EDE59E /* TypeManip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeManip.h; sourceTree = "<group>"; };
+		8D0F19981AB9204500EDE59E /* TypeTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeTraits.h; sourceTree = "<group>"; };
+		8D0F19991AB9204500EDE59E /* Visitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visitor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0F192B1AB91F9000EDE59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0F19361AB91F9000EDE59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F193A1AB91F9000EDE59E /* libLoki-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0F19251AB91F9000EDE59E = {
+			isa = PBXGroup;
+			children = (
+				8D0F19301AB91F9000EDE59E /* Loki-iOS */,
+				8D0F193D1AB91F9000EDE59E /* Loki-iOSTests */,
+				8D0F192F1AB91F9000EDE59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D0F192F1AB91F9000EDE59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F192E1AB91F9000EDE59E /* libLoki-iOS.a */,
+				8D0F19391AB91F9000EDE59E /* Loki-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D0F19301AB91F9000EDE59E /* Loki-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F19781AB9204500EDE59E /* Headers */,
+				8D0F196A1AB9201100EDE59E /* Source */,
+			);
+			path = "Loki-iOS";
+			sourceTree = "<group>";
+		};
+		8D0F193D1AB91F9000EDE59E /* Loki-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F193E1AB91F9000EDE59E /* Supporting Files */,
+			);
+			path = "Loki-iOSTests";
+			sourceTree = "<group>";
+		};
+		8D0F193E1AB91F9000EDE59E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F193F1AB91F9000EDE59E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D0F196A1AB9201100EDE59E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F196B1AB9201D00EDE59E /* StrongPtr.cpp */,
+				8D0F196C1AB9201D00EDE59E /* OrderedStatic.cpp */,
+				8D0F196D1AB9201D00EDE59E /* SmartPtr.cpp */,
+				8D0F196E1AB9201D00EDE59E /* SafeFormat.cpp */,
+				8D0F196F1AB9201D00EDE59E /* Singleton.cpp */,
+				8D0F19701AB9201D00EDE59E /* SmallObj.cpp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8D0F19781AB9204500EDE59E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F19791AB9204500EDE59E /* AbstractFactory.h */,
+				8D0F197A1AB9204500EDE59E /* AssocVector.h */,
+				8D0F197B1AB9204500EDE59E /* ConstPolicy.h */,
+				8D0F197C1AB9204500EDE59E /* DataGenerators.h */,
+				8D0F197D1AB9204500EDE59E /* EmptyType.h */,
+				8D0F197E1AB9204500EDE59E /* Factory.h */,
+				8D0F197F1AB9204500EDE59E /* Function.h */,
+				8D0F19801AB9204500EDE59E /* Functor.h */,
+				8D0F19811AB9204500EDE59E /* HierarchyGenerators.h */,
+				8D0F19821AB9204500EDE59E /* LockingPtr.h */,
+				8D0F19831AB9204500EDE59E /* LokiExport.h */,
+				8D0F19841AB9204500EDE59E /* LokiTypeInfo.h */,
+				8D0F19851AB9204500EDE59E /* MultiMethods.h */,
+				8D0F19861AB9204500EDE59E /* NullType.h */,
+				8D0F19871AB9204500EDE59E /* OrderedStatic.h */,
+				8D0F19881AB9204500EDE59E /* Pimpl.h */,
+				8D0F19891AB9204500EDE59E /* RefToValue.h */,
+				8D0F198A1AB9204500EDE59E /* Register.h */,
+				8D0F198B1AB9204500EDE59E /* SafeFormat.h */,
+				8D0F198C1AB9204500EDE59E /* ScopeGuard.h */,
+				8D0F198D1AB9204500EDE59E /* Sequence.h */,
+				8D0F198E1AB9204500EDE59E /* Singleton.h */,
+				8D0F198F1AB9204500EDE59E /* SmallObj.h */,
+				8D0F19901AB9204500EDE59E /* SmartPtr.h */,
+				8D0F19911AB9204500EDE59E /* static_check.h */,
+				8D0F19921AB9204500EDE59E /* StrongPtr.h */,
+				8D0F19931AB9204500EDE59E /* Threads.h */,
+				8D0F19941AB9204500EDE59E /* Tuple.h */,
+				8D0F19951AB9204500EDE59E /* Typelist.h */,
+				8D0F19961AB9204500EDE59E /* TypelistMacros.h */,
+				8D0F19971AB9204500EDE59E /* TypeManip.h */,
+				8D0F19981AB9204500EDE59E /* TypeTraits.h */,
+				8D0F19991AB9204500EDE59E /* Visitor.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D0F19771AB9202D00EDE59E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F19B21AB9204500EDE59E /* static_check.h in Headers */,
+				8D0F19A11AB9204500EDE59E /* Functor.h in Headers */,
+				8D0F19A71AB9204500EDE59E /* NullType.h in Headers */,
+				8D0F19B51AB9204500EDE59E /* Tuple.h in Headers */,
+				8D0F19A31AB9204500EDE59E /* LockingPtr.h in Headers */,
+				8D0F19B81AB9204500EDE59E /* TypeManip.h in Headers */,
+				8D0F199A1AB9204500EDE59E /* AbstractFactory.h in Headers */,
+				8D0F19AF1AB9204500EDE59E /* Singleton.h in Headers */,
+				8D0F199F1AB9204500EDE59E /* Factory.h in Headers */,
+				8D0F19B61AB9204500EDE59E /* Typelist.h in Headers */,
+				8D0F199E1AB9204500EDE59E /* EmptyType.h in Headers */,
+				8D0F199C1AB9204500EDE59E /* ConstPolicy.h in Headers */,
+				8D0F19AB1AB9204500EDE59E /* Register.h in Headers */,
+				8D0F19A21AB9204500EDE59E /* HierarchyGenerators.h in Headers */,
+				8D0F19B01AB9204500EDE59E /* SmallObj.h in Headers */,
+				8D0F19AC1AB9204500EDE59E /* SafeFormat.h in Headers */,
+				8D0F19B71AB9204500EDE59E /* TypelistMacros.h in Headers */,
+				8D0F19A41AB9204500EDE59E /* LokiExport.h in Headers */,
+				8D0F19B11AB9204500EDE59E /* SmartPtr.h in Headers */,
+				8D0F19AD1AB9204500EDE59E /* ScopeGuard.h in Headers */,
+				8D0F19BA1AB9204500EDE59E /* Visitor.h in Headers */,
+				8D0F19A61AB9204500EDE59E /* MultiMethods.h in Headers */,
+				8D0F19A01AB9204500EDE59E /* Function.h in Headers */,
+				8D0F19AA1AB9204500EDE59E /* RefToValue.h in Headers */,
+				8D0F19A81AB9204500EDE59E /* OrderedStatic.h in Headers */,
+				8D0F19B31AB9204500EDE59E /* StrongPtr.h in Headers */,
+				8D0F19AE1AB9204500EDE59E /* Sequence.h in Headers */,
+				8D0F19A51AB9204500EDE59E /* LokiTypeInfo.h in Headers */,
+				8D0F19B91AB9204500EDE59E /* TypeTraits.h in Headers */,
+				8D0F199D1AB9204500EDE59E /* DataGenerators.h in Headers */,
+				8D0F19B41AB9204500EDE59E /* Threads.h in Headers */,
+				8D0F199B1AB9204500EDE59E /* AssocVector.h in Headers */,
+				8D0F19A91AB9204500EDE59E /* Pimpl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D0F192D1AB91F9000EDE59E /* Loki-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0F19421AB91F9000EDE59E /* Build configuration list for PBXNativeTarget "Loki-iOS" */;
+			buildPhases = (
+				8D0F192A1AB91F9000EDE59E /* Sources */,
+				8D0F192B1AB91F9000EDE59E /* Frameworks */,
+				8D0F192C1AB91F9000EDE59E /* CopyFiles */,
+				8D0F19771AB9202D00EDE59E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loki-iOS";
+			productName = "Loki-iOS";
+			productReference = 8D0F192E1AB91F9000EDE59E /* libLoki-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D0F19381AB91F9000EDE59E /* Loki-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0F19451AB91F9000EDE59E /* Build configuration list for PBXNativeTarget "Loki-iOSTests" */;
+			buildPhases = (
+				8D0F19351AB91F9000EDE59E /* Sources */,
+				8D0F19361AB91F9000EDE59E /* Frameworks */,
+				8D0F19371AB91F9000EDE59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D0F193C1AB91F9000EDE59E /* PBXTargetDependency */,
+			);
+			name = "Loki-iOSTests";
+			productName = "Loki-iOSTests";
+			productReference = 8D0F19391AB91F9000EDE59E /* Loki-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D0F19261AB91F9000EDE59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = seraphcxl;
+				TargetAttributes = {
+					8D0F192D1AB91F9000EDE59E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8D0F19381AB91F9000EDE59E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 8D0F19291AB91F9000EDE59E /* Build configuration list for PBXProject "Loki-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D0F19251AB91F9000EDE59E;
+			productRefGroup = 8D0F192F1AB91F9000EDE59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D0F192D1AB91F9000EDE59E /* Loki-iOS */,
+				8D0F19381AB91F9000EDE59E /* Loki-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0F19371AB91F9000EDE59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0F192A1AB91F9000EDE59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0F19731AB9201D00EDE59E /* SmartPtr.cpp in Sources */,
+				8D0F19711AB9201D00EDE59E /* StrongPtr.cpp in Sources */,
+				8D0F19721AB9201D00EDE59E /* OrderedStatic.cpp in Sources */,
+				8D0F19741AB9201D00EDE59E /* SafeFormat.cpp in Sources */,
+				8D0F19751AB9201D00EDE59E /* Singleton.cpp in Sources */,
+				8D0F19761AB9201D00EDE59E /* SmallObj.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0F19351AB91F9000EDE59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D0F193C1AB91F9000EDE59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D0F192D1AB91F9000EDE59E /* Loki-iOS */;
+			targetProxy = 8D0F193B1AB91F9000EDE59E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D0F19401AB91F9000EDE59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D0F19411AB91F9000EDE59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D0F19431AB91F9000EDE59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8D0F19441AB91F9000EDE59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D0F19461AB91F9000EDE59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Loki-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D0F19471AB91F9000EDE59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Loki-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D0F19291AB91F9000EDE59E /* Build configuration list for PBXProject "Loki-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0F19401AB91F9000EDE59E /* Debug */,
+				8D0F19411AB91F9000EDE59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0F19421AB91F9000EDE59E /* Build configuration list for PBXNativeTarget "Loki-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0F19431AB91F9000EDE59E /* Debug */,
+				8D0F19441AB91F9000EDE59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D0F19451AB91F9000EDE59E /* Build configuration list for PBXNativeTarget "Loki-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0F19461AB91F9000EDE59E /* Debug */,
+				8D0F19471AB91F9000EDE59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D0F19261AB91F9000EDE59E /* Project object */;
+}
